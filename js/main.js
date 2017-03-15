@@ -61,7 +61,7 @@ function startDifficult(){
 	difficult.style.display = "none";
 	hint.style.display = "none";
 	startPuzzle();
-	counter = 5;
+	counter = 150;
 	setTimeout(countDownTimer, 100);
 }
 
