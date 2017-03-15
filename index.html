@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hexagon Puzzle</title>
+
+	<!-- Style sheet files -->
+	<link rel="stylesheet" href="css/main.css">
+	<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+</head>
+<body>
+	<h1>Hexagon Jigsaw Puzzle</h1>
+	<div class="container">
+		<section>
+			<div class="button-panel">
+				<button id="start">Easy Mode</button>
+				<button id="difficult">Difficult Mode</button>
+				<button id="reset">Reset</button>
+				<button id="hint">Hint</button>
+				<div class="timer" id="timer"></div>
+			</div>
+			<div class="canvas">
+				<img src="images/puzzle_solved.png" id="solved">
+				<div class="dropzones" id="dropzones">
+					<div id="img-5"></div>
+					<div id="img-6"></div>
+					<div id="img-7"></div>
+					<div id="img-8"></div>
+					<div id="img-9"></div>
+					<div id="img-10"></div>
+					<div id="img-11"></div>
+					<div id="img-12"></div>
+					<div id="img-13"></div>
+					<div id="img-14"></div>
+					<div id="img-15"></div>
+					<div id="img-16"></div>
+					<div id="img-17"></div>
+					<div id="img-18"></div>
+					<div id="img-19"></div>
+					<div id="img-20"></div>
+					<div id="img-21"></div>
+					<div id="img-22"></div>
+					<div id="img-23"></div>
+					<div id="img-24"></div>
+					<div id="img-25"></div>
+					<div id="img-26"></div>
+					<div id="img-27"></div>
+					<div id="img-28"></div>
+					<div id="img-29"></div>
+					<div id="img-30"></div>
+					<div id="img-31"></div>
+					<div id="img-32"></div>
+					<div id="img-33"></div>
+					<div id="img-34"></div>
+					<div id="img-35"></div>
+					<div id="img-36"></div>
+					<div id="img-37"></div>
+					<div id="img-38"></div>
+					<div id="img-39"></div>
+					<div id="img-40"></div>
+					<div id="img-41"></div>
+					<div id="img-42"></div>
+					<div id="img-43"></div>
+					<div id="img-44"></div>
+					<div id="img-45"></div>
+				</div>
+				<img src="images/puzzle_bg_unsolved.png" id="unsolved">
+				<div class="lost" id="lost"></div>
+				<div class="won" id="won"></div>
+			</div>
+		</section>
+		<section class="imgContainer" id="imgContainer">
+			<img src="images/Group5.png" draggable="true" id="5">
+			<img src="images/Group6.png" draggable="true" id="6">
+			<img src="images/Group7.png" draggable="true" id="7">
+			<img src="images/Group8.png" draggable="true" id="8">
+			<img src="images/Group9.png" draggable="true" id="9">
+			<img src="images/Group10.png" draggable="true" id="10">
+			<img src="images/Group11.png" draggable="true" id="11">
+			<img src="images/Group12.png" draggable="true" id="12">
+			<img src="images/Group13.png" draggable="true" id="13">
+			<img src="images/Group14.png" draggable="true" id="14">
+			<img src="images/Group15.png" draggable="true" id="15">
+			<img src="images/Group16.png" draggable="true" id="16">
+			<img src="images/Group17.png" draggable="true" id="17">
+			<img src="images/Group18.png" draggable="true" id="18">
+			<img src="images/Group19.png" draggable="true" id="19">
+			<img src="images/Group20.png" draggable="true" id="20">
+			<img src="images/Group21.png" draggable="true" id="21">
+			<img src="images/Group22.png" draggable="true" id="22">
+			<img src="images/Group23.png" draggable="true" id="23">
+			<img src="images/Group24.png" draggable="true" id="24">
+			<img src="images/Group25.png" draggable="true" id="25">
+			<img src="images/Group26.png" draggable="true" id="26">
+			<img src="images/Group27.png" draggable="true" id="27">
+			<img src="images/Group28.png" draggable="true" id="28">
+			<img src="images/Group29.png" draggable="true" id="29">
+			<img src="images/Group30.png" draggable="true" id="30">
+			<img src="images/Group31.png" draggable="true" id="31">
+			<img src="images/Group32.png" draggable="true" id="32">
+			<img src="images/Group33.png" draggable="true" id="33">
+			<img src="images/Group34.png" draggable="true" id="34">
+			<img src="images/Group35.png" draggable="true" id="35">
+			<img src="images/Group36.png" draggable="true" id="36">
+			<img src="images/Group37.png" draggable="true" id="37">
+			<img src="images/Group38.png" draggable="true" id="38">
+			<img src="images/Group39.png" draggable="true" id="39">
+			<img src="images/Group40.png" draggable="true" id="40">
+			<img src="images/Group41.png" draggable="true" id="41">
+			<img src="images/Group42.png" draggable="true" id="42">
+			<img src="images/Group43.png" draggable="true" id="43">
+			<img src="images/Group44.png" draggable="true" id="44">
+			<img src="images/Group45.png" draggable="true" id="45">
+		</section>
+	</div>
+	<!-- JS File -->
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
