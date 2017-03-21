@@ -1,3 +1,5 @@
+"use strict";
+
 ///////////////////////////////////////////////////////////////////
 // Variables
 
@@ -125,12 +127,11 @@ for(var j = 0; j < imgDropZones.length; j++){
 // Function to define actions to start dragging
 function dragStart(e){
 	e.dataTransfer.setData('text', e.target.id);
-	console.log("dragged id:" + e.target.id);
 }
 
 // Function to define actions when draggable item is dropped into drop zone
 function dragEnd(e){
-	draggedImg = e.target;
+	var draggedImg = e.target;
 }
 
 // Function to define actions when draggable item enters drop zone
